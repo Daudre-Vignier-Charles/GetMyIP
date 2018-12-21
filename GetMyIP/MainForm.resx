@@ -160,7 +160,7 @@
     <value>409, 26</value>
   </data>
   <data name="textBoxIP.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="textBoxIP.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
@@ -187,7 +187,7 @@
     <value>72, 72</value>
   </data>
   <data name="exitButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="exitButton.Text" xml:space="preserve">
     <value>Exit</value>
@@ -203,6 +203,39 @@
   </data>
   <data name="&gt;&gt;exitButton.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="CopyrightLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="CopyrightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 34</value>
+  </data>
+  <data name="CopyrightLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CopyrightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="CopyrightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CopyrightLabel.Text" xml:space="preserve">
+    <value>©</value>
+  </data>
+  <data name="CopyrightLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CopyrightLabel.Name" xml:space="preserve">
+    <value>CopyrightLabel</value>
+  </data>
+  <data name="&gt;&gt;CopyrightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CopyrightLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CopyrightLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

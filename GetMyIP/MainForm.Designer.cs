@@ -32,6 +32,7 @@
             this.comboBoxLanInternet = new System.Windows.Forms.ComboBox();
             this.textBoxIP = new System.Windows.Forms.TextBox();
             this.exitButton = new System.Windows.Forms.Button();
+            this.CopyrightLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // comboBoxLanInternet
@@ -58,6 +59,15 @@
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // CopyrightLabel
+            // 
+            this.CopyrightLabel.BackColor = System.Drawing.Color.Transparent;
+            this.CopyrightLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            resources.ApplyResources(this.CopyrightLabel, "CopyrightLabel");
+            this.CopyrightLabel.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.CopyrightLabel.Name = "CopyrightLabel";
+            this.CopyrightLabel.Click += new System.EventHandler(this.CopyrightLabel_Click);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -67,6 +77,7 @@
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.textBoxIP);
             this.Controls.Add(this.comboBoxLanInternet);
+            this.Controls.Add(this.CopyrightLabel);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
@@ -84,6 +95,7 @@
         private System.Windows.Forms.ComboBox comboBoxLanInternet;
         private System.Windows.Forms.TextBox textBoxIP;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Label CopyrightLabel;
     }
 }
 

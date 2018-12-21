@@ -89,5 +89,10 @@ namespace GetMyIP
         private const int HT_CAPTION = 0x2;
         // Disable Double click
         private const int WM_NCLBUTTONDBLCLK = 0x00A3;
+
+        private void CopyrightLabel_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(GetMyIP.Properties.Resources.Copyright);
+        }
     }
 }

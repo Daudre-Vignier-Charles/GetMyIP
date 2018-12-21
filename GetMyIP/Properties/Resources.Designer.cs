@@ -69,5 +69,21 @@ namespace GetMyIP.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à     GetMyIP - A very simple application :
+        ///                     Select a network card from the list, it displays its IP address.
+        ///
+        ///    Copyright(C) 2018  Charles Daudré-Vignier
+        ///
+        ///This program is free software: you can redistribute it and / or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+        ///
+        ///This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRAN [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string Copyright {
+            get {
+                return ResourceManager.GetString("Copyright", resourceCulture);
+            }
+        }
     }
 }
