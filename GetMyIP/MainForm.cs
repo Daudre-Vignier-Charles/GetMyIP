@@ -92,7 +92,7 @@ namespace GetMyIP
 
         private void CopyrightLabel_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(GetMyIP.Properties.Resources.Copyright);
+            MessageBox.Show(GetMyIP.Properties.Resources.Copyright, "Copyrights and licenses");
         }
     }
 }
