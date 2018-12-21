@@ -1,6 +1,6 @@
 # GetMyIP
 
-### [download last release](https://github.com/Daudre-Vignier-Charles/GetMyIP/releases/latest)
+### [download latest release](https://github.com/Daudre-Vignier-Charles/GetMyIP/releases/latest)
 
 ![alt text](https://user-images.githubusercontent.com/17654421/50296138-0650f180-047a-11e9-8819-e4d3f7d89f7a.png)
 
