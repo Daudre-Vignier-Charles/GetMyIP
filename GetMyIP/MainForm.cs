@@ -30,7 +30,7 @@ namespace GetMyIP
                 {
                     foreach (UnicastIPAddressInformation ip in nic.GetIPProperties().UnicastAddresses)
                     {
-                        if (!ip.Address.ToString().Contains("169.254"))
+                        if (!ip.Address.ToString().Contains("169.254."))
                         {
                             comboBoxLanInternet.Items.Add(nic.Description);
                         }
